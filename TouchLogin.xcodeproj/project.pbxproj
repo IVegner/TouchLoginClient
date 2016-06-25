@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8A3B581D1ED8D000E484D9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A3B4B1D1ED85500E484D9 /* Alamofire.framework */; };
+		2C8A3B591D1ED8D000E484D9 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A3B4B1D1ED85500E484D9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		839016C61C6FBDAE0063A5D1 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839016C51C6FBDAE0063A5D1 /* TouchViewController.swift */; };
 		839016C81C6FBE4C0063A5D1 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839016C71C6FBE4C0063A5D1 /* LocalAuthentication.framework */; };
 		839016CA1C6FC0AB0063A5D1 /* TouchIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839016C91C6FC0AB0063A5D1 /* TouchIDManager.swift */; };
-		839016CC1C6FC73A0063A5D1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839016CB1C6FC73A0063A5D1 /* Alamofire.framework */; };
 		83930F5F1C6FB2F300FE0FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F5E1C6FB2F300FE0FBC /* AppDelegate.swift */; };
 		83930F611C6FB2F300FE0FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F601C6FB2F300FE0FBC /* ViewController.swift */; };
 		83930F641C6FB2F300FE0FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83930F621C6FB2F300FE0FBC /* Main.storyboard */; };
@@ -18,10 +19,65 @@
 		83930F691C6FB2F300FE0FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83930F671C6FB2F300FE0FBC /* LaunchScreen.storyboard */; };
 		83930F741C6FB2F400FE0FBC /* TouchLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F731C6FB2F400FE0FBC /* TouchLoginTests.swift */; };
 		83930F7F1C6FB2F400FE0FBC /* TouchLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F7E1C6FB2F400FE0FBC /* TouchLoginUITests.swift */; };
-		F925E0324F0A10CC9AEAB2A6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D18AB011FA4E0E8336E91B /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C8A3B4A1D1ED85500E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		2C8A3B4C1D1ED85500E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		2C8A3B4E1D1ED85500E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		2C8A3B501D1ED85500E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		2C8A3B521D1ED85500E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		2C8A3B541D1ED85500E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		2C8A3B561D1ED85500E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		2C8A3B5A1D1ED8D000E484D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 		83930F701C6FB2F400FE0FBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83930F531C6FB2F300FE0FBC /* Project object */;
@@ -38,14 +94,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2C8A3B5C1D1ED8D000E484D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2C8A3B591D1ED8D000E484D9 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		538C935A42269FC62E0D435C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		57D18AB011FA4E0E8336E91B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C01BCA02E1F2A86BF889C13 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Libs/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		839016C51C6FBDAE0063A5D1 /* TouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
 		839016C71C6FBE4C0063A5D1 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		839016C91C6FC0AB0063A5D1 /* TouchIDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDManager.swift; sourceTree = "<group>"; };
-		839016CB1C6FC73A0063A5D1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		839016CE1C6FFB2B0063A5D1 /* TouchLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchLogin-Bridging-Header.h"; sourceTree = "<group>"; };
 		83930F5B1C6FB2F300FE0FBC /* TouchLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83930F5E1C6FB2F300FE0FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,9 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839016CC1C6FC73A0063A5D1 /* Alamofire.framework in Frameworks */,
 				839016C81C6FBE4C0063A5D1 /* LocalAuthentication.framework in Frameworks */,
-				F925E0324F0A10CC9AEAB2A6 /* Pods.framework in Frameworks */,
+				2C8A3B581D1ED8D000E484D9 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +156,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C8A3B411D1ED85500E484D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8A3B4B1D1ED85500E484D9 /* Alamofire.framework */,
+				2C8A3B4D1D1ED85500E484D9 /* Alamofire iOS Tests.xctest */,
+				2C8A3B4F1D1ED85500E484D9 /* Alamofire.framework */,
+				2C8A3B511D1ED85500E484D9 /* Alamofire OSX Tests.xctest */,
+				2C8A3B531D1ED85500E484D9 /* Alamofire.framework */,
+				2C8A3B551D1ED85500E484D9 /* Alamofire tvOS Tests.xctest */,
+				2C8A3B571D1ED85500E484D9 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4AFC6BFD93274A1C5D598F15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				839016CB1C6FC73A0063A5D1 /* Alamofire.framework */,
 				839016C71C6FBE4C0063A5D1 /* LocalAuthentication.framework */,
-				57D18AB011FA4E0E8336E91B /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,11 +181,11 @@
 		83930F521C6FB2F300FE0FBC = {
 			isa = PBXGroup;
 			children = (
+				2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */,
 				83930F5D1C6FB2F300FE0FBC /* TouchLogin */,
 				83930F721C6FB2F400FE0FBC /* TouchLoginTests */,
 				83930F7D1C6FB2F400FE0FBC /* TouchLoginUITests */,
 				83930F5C1C6FB2F300FE0FBC /* Products */,
-				FB08FDA908B07D7BC7010A38 /* Pods */,
 				4AFC6BFD93274A1C5D598F15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -156,15 +234,6 @@
 			path = TouchLoginUITests;
 			sourceTree = "<group>";
 		};
-		FB08FDA908B07D7BC7010A38 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C01BCA02E1F2A86BF889C13 /* Pods.debug.xcconfig */,
-				538C935A42269FC62E0D435C /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,16 +241,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83930F831C6FB2F400FE0FBC /* Build configuration list for PBXNativeTarget "TouchLogin" */;
 			buildPhases = (
-				F9612D721560D6E04F88ADD9 /* Check Pods Manifest.lock */,
 				83930F571C6FB2F300FE0FBC /* Sources */,
 				83930F581C6FB2F300FE0FBC /* Frameworks */,
 				83930F591C6FB2F300FE0FBC /* Resources */,
-				C23C528F62777C5063FF37CA /* Embed Pods Frameworks */,
-				EBFF72A40783D380F8B36361 /* Copy Pods Resources */,
+				2C8A3B5C1D1ED8D000E484D9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C8A3B5B1D1ED8D000E484D9 /* PBXTargetDependency */,
 			);
 			name = TouchLogin;
 			productName = TouchLogin;
@@ -259,6 +327,12 @@
 			mainGroup = 83930F521C6FB2F300FE0FBC;
 			productRefGroup = 83930F5C1C6FB2F300FE0FBC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2C8A3B411D1ED85500E484D9 /* Products */;
+					ProjectRef = 2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				83930F5A1C6FB2F300FE0FBC /* TouchLogin */,
@@ -267,6 +341,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2C8A3B4B1D1ED85500E484D9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2C8A3B4A1D1ED85500E484D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C8A3B4D1D1ED85500E484D9 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 2C8A3B4C1D1ED85500E484D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C8A3B4F1D1ED85500E484D9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2C8A3B4E1D1ED85500E484D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C8A3B511D1ED85500E484D9 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 2C8A3B501D1ED85500E484D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C8A3B531D1ED85500E484D9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2C8A3B521D1ED85500E484D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C8A3B551D1ED85500E484D9 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 2C8A3B541D1ED85500E484D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2C8A3B571D1ED85500E484D9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2C8A3B561D1ED85500E484D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		83930F591C6FB2F300FE0FBC /* Resources */ = {
@@ -294,54 +420,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C23C528F62777C5063FF37CA /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBFF72A40783D380F8B36361 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F9612D721560D6E04F88ADD9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83930F571C6FB2F300FE0FBC /* Sources */ = {
@@ -374,6 +452,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C8A3B5B1D1ED8D000E484D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 2C8A3B5A1D1ED8D000E484D9 /* PBXContainerItemProxy */;
+		};
 		83930F711C6FB2F400FE0FBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 83930F5A1C6FB2F300FE0FBC /* TouchLogin */;
@@ -493,17 +576,18 @@
 		};
 		83930F841C6FB2F400FE0FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C01BCA02E1F2A86BF889C13 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = TouchLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.touchlogin.TouchLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,17 +599,18 @@
 		};
 		83930F851C6FB2F400FE0FBC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 538C935A42269FC62E0D435C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = TouchLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.touchlogin.TouchLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
