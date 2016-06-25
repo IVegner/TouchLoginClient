@@ -67,18 +67,18 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sLz-0A-z0a">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Welcome to TouchLogin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rO8-wX-gD6">
-                                <rect key="frame" x="95" y="58" width="411" height="205"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Welcome to TouchLogin" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rO8-wX-gD6">
+                                <rect key="frame" x="95" y="64" width="411" height="205"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="66"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="50"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.82039159536361694" green="0.92540818452835083" blue="0.9550061821937561" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="rO8-wX-gD6" firstAttribute="top" secondItem="nii-r1-HUl" secondAttribute="bottom" constant="38" id="8yQ-3f-Sm3"/>
-                            <constraint firstItem="rO8-wX-gD6" firstAttribute="centerX" secondItem="gdo-81-hgl" secondAttribute="centerX" id="OEl-PA-yqn"/>
+                            <constraint firstItem="rO8-wX-gD6" firstAttribute="centerX" secondItem="gdo-81-hgl" secondAttribute="centerX" id="3jB-bz-4jp"/>
+                            <constraint firstItem="rO8-wX-gD6" firstAttribute="top" secondItem="nii-r1-HUl" secondAttribute="bottom" constant="40" id="7gF-7r-CCt"/>
                             <constraint firstItem="sLz-0A-z0a" firstAttribute="centerX" secondItem="gdo-81-hgl" secondAttribute="centerX" id="ld7-eF-ruL"/>
                             <constraint firstItem="sLz-0A-z0a" firstAttribute="centerY" secondItem="gdo-81-hgl" secondAttribute="centerY" id="p2w-uD-HzB"/>
                         </constraints>
@@ -103,39 +103,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lcb-tf-StO">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is TouchLogin?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwM-Id-8Oy">
-                                <rect key="frame" x="112" y="84" width="387" height="77"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is TouchLogin?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwM-Id-8Oy">
+                                <rect key="frame" x="122.5" y="84" width="355" height="47"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
                                 <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ogs-CK-gOX">
-                                <rect key="frame" x="119" y="342" width="362" height="223.5"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ogs-CK-gOX">
+                                <rect key="frame" x="119" y="304" width="362" height="223.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">TouchLogin is a revolutionary biometric authentication mechanism which uses the TouchID sensor, allowing you to securely register and log into your accounts without the hassle and vulnerability of traditional text-based passwords.</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Optima-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <string key="text">TouchLogin is a revolutionary biometric authentication mechanism which uses the TouchID sensor, allowing you to securely register and log into your accounts without the hassle and vulnerability of traditional text-based passwords.</string>
+                                <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="7ZR-tF-tf5"/>
-                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="top" secondItem="BEx-Dm-uCC" secondAttribute="bottom" constant="64" id="Bnj-iL-iDN"/>
+                            <constraint firstItem="Ogs-CK-gOX" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="AkS-tS-IK1"/>
+                            <constraint firstItem="Ogs-CK-gOX" firstAttribute="centerX" secondItem="lcb-tf-StO" secondAttribute="centerX" id="EBE-0f-oM2"/>
                             <constraint firstItem="lcb-tf-StO" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="KOM-y6-AWC"/>
-                            <constraint firstItem="wT0-N6-NSd" firstAttribute="top" secondItem="Ogs-CK-gOX" secondAttribute="bottom" constant="54" id="PdQ-zo-A9D"/>
-                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="top" secondItem="BEx-Dm-uCC" secondAttribute="bottom" constant="64" id="fjw-p4-13l"/>
                             <constraint firstItem="lcb-tf-StO" firstAttribute="centerY" secondItem="XXo-GG-Hwe" secondAttribute="centerY" id="kho-Jl-cKb"/>
-                            <constraint firstItem="Ogs-CK-gOX" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="uU8-JA-Kl9"/>
-                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="vtt-4I-Qu4"/>
+                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="top" secondItem="BEx-Dm-uCC" secondAttribute="bottom" constant="64" id="xm0-97-1l0"/>
+                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="yEz-Sj-nlw"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -249,20 +240,20 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fingerprint-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qr9-e7-fda">
-                                <rect key="frame" x="212" y="164" width="181" height="168"/>
+                                <rect key="frame" x="210" y="164" width="181" height="168"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Qr9-e7-fda" firstAttribute="top" secondItem="UeZ-9v-8Iw" secondAttribute="bottom" constant="144" id="IRN-uO-KZE"/>
                             <constraint firstItem="Yzx-nX-dVU" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="LKL-fl-lx2"/>
+                            <constraint firstItem="67T-be-Nmk" firstAttribute="top" secondItem="Qr9-e7-fda" secondAttribute="bottom" constant="320" id="RyU-yy-LYv"/>
                             <constraint firstItem="Yzx-nX-dVU" firstAttribute="centerY" secondItem="VTC-0Z-nfA" secondAttribute="centerY" id="WKN-y9-jhK"/>
-                            <constraint firstItem="67T-be-Nmk" firstAttribute="top" secondItem="Qr9-e7-fda" secondAttribute="bottom" constant="280" id="WNa-i7-BtV"/>
                             <constraint firstItem="TZT-qR-lsY" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="aen-NZ-7j5"/>
-                            <constraint firstItem="Qr9-e7-fda" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="awN-kr-cGC"/>
                             <constraint firstItem="HDU-4V-dRI" firstAttribute="top" secondItem="UeZ-9v-8Iw" secondAttribute="bottom" constant="59" id="kBR-U8-Uy0"/>
+                            <constraint firstItem="Qr9-e7-fda" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="lsP-5e-Hjz"/>
                             <constraint firstItem="67T-be-Nmk" firstAttribute="top" secondItem="TZT-qR-lsY" secondAttribute="bottom" constant="44.5" id="qKt-TB-BhO"/>
                             <constraint firstItem="HDU-4V-dRI" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="ulv-rP-QRw"/>
+                            <constraint firstItem="Qr9-e7-fda" firstAttribute="top" secondItem="UeZ-9v-8Iw" secondAttribute="bottom" constant="180" id="vCt-uy-MH1"/>
                         </constraints>
                     </view>
                 </viewController>

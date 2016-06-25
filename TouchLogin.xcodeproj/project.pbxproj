@@ -21,10 +21,10 @@
 		83930F691C6FB2F300FE0FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83930F671C6FB2F300FE0FBC /* LaunchScreen.storyboard */; };
 		83930F741C6FB2F400FE0FBC /* TouchLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F731C6FB2F400FE0FBC /* TouchLoginTests.swift */; };
 		83930F7F1C6FB2F400FE0FBC /* TouchLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F7E1C6FB2F400FE0FBC /* TouchLoginUITests.swift */; };
-		E97C49E71D1F21CC009B5D01 /* 132.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E97C49E61D1F21CC009B5D01 /* 132.jpg */; };
-		E97C49F11D1F249A009B5D01 /* easy-icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E97C49EE1D1F249A009B5D01 /* easy-icon1.png */; };
-		E97C49F21D1F249A009B5D01 /* fingerprint-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E97C49EF1D1F249A009B5D01 /* fingerprint-icon.png */; };
-		E97C49F31D1F249A009B5D01 /* lock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E97C49F01D1F249A009B5D01 /* lock-icon.png */; };
+		E97C49E71D1F21CC009B5D01 /* tutorialBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E97C49E61D1F21CC009B5D01 /* tutorialBackground.jpg */; };
+		E97C49F11D1F249A009B5D01 /* tutorial-easy-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E97C49EE1D1F249A009B5D01 /* tutorial-easy-icon.png */; };
+		E97C49F21D1F249A009B5D01 /* tutorial-fingerprint-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E97C49EF1D1F249A009B5D01 /* tutorial-fingerprint-icon.png */; };
+		E97C49F31D1F249A009B5D01 /* tutorial-lock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E97C49F01D1F249A009B5D01 /* tutorial-lock-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,10 +135,10 @@
 		83930F7A1C6FB2F400FE0FBC /* TouchLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83930F7E1C6FB2F400FE0FBC /* TouchLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchLoginUITests.swift; sourceTree = "<group>"; };
 		83930F801C6FB2F400FE0FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E97C49E61D1F21CC009B5D01 /* 132.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 132.jpg; sourceTree = "<group>"; };
-		E97C49EE1D1F249A009B5D01 /* easy-icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "easy-icon1.png"; sourceTree = "<group>"; };
-		E97C49EF1D1F249A009B5D01 /* fingerprint-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint-icon.png"; sourceTree = "<group>"; };
-		E97C49F01D1F249A009B5D01 /* lock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-icon.png"; sourceTree = "<group>"; };
+		E97C49E61D1F21CC009B5D01 /* tutorialBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorialBackground.jpg; sourceTree = "<group>"; };
+		E97C49EE1D1F249A009B5D01 /* tutorial-easy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-easy-icon.png"; sourceTree = "<group>"; };
+		E97C49EF1D1F249A009B5D01 /* tutorial-fingerprint-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-fingerprint-icon.png"; sourceTree = "<group>"; };
+		E97C49F01D1F249A009B5D01 /* tutorial-lock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial-lock-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +192,18 @@
 			name = Libs;
 			sourceTree = "<group>";
 		};
+		2CF718FA1D1F3370000D7421 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E97C49EE1D1F249A009B5D01 /* tutorial-easy-icon.png */,
+				E97C49EF1D1F249A009B5D01 /* tutorial-fingerprint-icon.png */,
+				E97C49F01D1F249A009B5D01 /* tutorial-lock-icon.png */,
+				E97C49E61D1F21CC009B5D01 /* tutorialBackground.jpg */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		4AFC6BFD93274A1C5D598F15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,10 +215,6 @@
 		83930F521C6FB2F300FE0FBC = {
 			isa = PBXGroup;
 			children = (
-				E97C49EE1D1F249A009B5D01 /* easy-icon1.png */,
-				E97C49EF1D1F249A009B5D01 /* fingerprint-icon.png */,
-				E97C49F01D1F249A009B5D01 /* lock-icon.png */,
-				E97C49E61D1F21CC009B5D01 /* 132.jpg */,
 				83930F5D1C6FB2F300FE0FBC /* TouchLogin */,
 				83930F721C6FB2F400FE0FBC /* TouchLoginTests */,
 				83930F7D1C6FB2F400FE0FBC /* TouchLoginUITests */,
@@ -232,6 +240,7 @@
 				83930F5E1C6FB2F300FE0FBC /* AppDelegate.swift */,
 				83930F621C6FB2F300FE0FBC /* Main.storyboard */,
 				83930F651C6FB2F300FE0FBC /* Assets.xcassets */,
+				2CF718FA1D1F3370000D7421 /* Images */,
 				83930F671C6FB2F300FE0FBC /* LaunchScreen.storyboard */,
 				83930F6A1C6FB2F300FE0FBC /* Info.plist */,
 				839016C51C6FBDAE0063A5D1 /* TouchViewController.swift */,
@@ -425,13 +434,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97C49E71D1F21CC009B5D01 /* 132.jpg in Resources */,
-				E97C49F21D1F249A009B5D01 /* fingerprint-icon.png in Resources */,
+				E97C49E71D1F21CC009B5D01 /* tutorialBackground.jpg in Resources */,
+				E97C49F21D1F249A009B5D01 /* tutorial-fingerprint-icon.png in Resources */,
 				83930F691C6FB2F300FE0FBC /* LaunchScreen.storyboard in Resources */,
 				83930F661C6FB2F300FE0FBC /* Assets.xcassets in Resources */,
 				83930F641C6FB2F300FE0FBC /* Main.storyboard in Resources */,
-				E97C49F11D1F249A009B5D01 /* easy-icon1.png in Resources */,
-				E97C49F31D1F249A009B5D01 /* lock-icon.png in Resources */,
+				E97C49F11D1F249A009B5D01 /* tutorial-easy-icon.png in Resources */,
+				E97C49F31D1F249A009B5D01 /* tutorial-lock-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
