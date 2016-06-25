@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TouchLogin
 //
-//  Created by Christopher Yung on 2/13/16.
+//  Created by Ivan Vegner on 2/13/16.
 //  Copyright © 2016 TouchLogin. All rights reserved.
 //
 

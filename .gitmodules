@@ -1,3 +1,6 @@
 [submodule "Alamofire"]
 	path = Alamofire
 	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Libs/TB_Walkthrough"]
+	path = Libs/TB_Walkthrough
+	url = https://github.com/ariok/TB_Walkthrough.git

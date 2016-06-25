@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A7F74395C9A14880A6862B187BEB062A5721DE71",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A7F74395C9A14880A6862B187BEB062A5721DE71" : 0,
+    "66C7CCC7859F2033BA46EA18E69F479D1D4A7521" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "16DC0C8A-7C4A-47DE-8D84-CAD284046AA0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A7F74395C9A14880A6862B187BEB062A5721DE71" : "TouchLoginClient\/",
+    "66C7CCC7859F2033BA46EA18E69F479D1D4A7521" : "TouchLoginClient\/Libs\/TB_Walkthrough\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TouchLogin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TouchLogin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ariok\/TB_Walkthrough.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "66C7CCC7859F2033BA46EA18E69F479D1D4A7521"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VVegner\/TouchLoginClient.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7F74395C9A14880A6862B187BEB062A5721DE71"
+    }
+  ]
+}

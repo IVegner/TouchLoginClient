@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		2C8A3B581D1ED8D000E484D9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A3B4B1D1ED85500E484D9 /* Alamofire.framework */; };
 		2C8A3B591D1ED8D000E484D9 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A3B4B1D1ED85500E484D9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2CF718E81D1EF1F1000D7421 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF718E61D1EF1F1000D7421 /* BWWalkthroughPageViewController.swift */; };
+		2CF718E91D1EF1F1000D7421 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF718E71D1EF1F1000D7421 /* BWWalkthroughViewController.swift */; };
+		2CF718F41D1EFED1000D7421 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF718F31D1EFED1000D7421 /* TutorialViewController.swift */; };
 		839016C61C6FBDAE0063A5D1 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839016C51C6FBDAE0063A5D1 /* TouchViewController.swift */; };
 		839016C81C6FBE4C0063A5D1 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839016C71C6FBE4C0063A5D1 /* LocalAuthentication.framework */; };
 		839016CA1C6FC0AB0063A5D1 /* TouchIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839016C91C6FC0AB0063A5D1 /* TouchIDManager.swift */; };
 		83930F5F1C6FB2F300FE0FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F5E1C6FB2F300FE0FBC /* AppDelegate.swift */; };
-		83930F611C6FB2F300FE0FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83930F601C6FB2F300FE0FBC /* ViewController.swift */; };
 		83930F641C6FB2F300FE0FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83930F621C6FB2F300FE0FBC /* Main.storyboard */; };
 		83930F661C6FB2F300FE0FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83930F651C6FB2F300FE0FBC /* Assets.xcassets */; };
 		83930F691C6FB2F300FE0FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83930F671C6FB2F300FE0FBC /* LaunchScreen.storyboard */; };
@@ -110,13 +112,15 @@
 
 /* Begin PBXFileReference section */
 		2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Libs/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		2CF718E61D1EF1F1000D7421 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BWWalkthroughPageViewController.swift; path = Libs/TB_Walkthrough/TB_Walkthrough/Libs/BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		2CF718E71D1EF1F1000D7421 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BWWalkthroughViewController.swift; path = Libs/TB_Walkthrough/TB_Walkthrough/Libs/BWWalkthroughViewController.swift; sourceTree = "<group>"; };
+		2CF718F31D1EFED1000D7421 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		839016C51C6FBDAE0063A5D1 /* TouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
 		839016C71C6FBE4C0063A5D1 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		839016C91C6FC0AB0063A5D1 /* TouchIDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDManager.swift; sourceTree = "<group>"; };
 		839016CE1C6FFB2B0063A5D1 /* TouchLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchLogin-Bridging-Header.h"; sourceTree = "<group>"; };
 		83930F5B1C6FB2F300FE0FBC /* TouchLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83930F5E1C6FB2F300FE0FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83930F601C6FB2F300FE0FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83930F631C6FB2F300FE0FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83930F651C6FB2F300FE0FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83930F681C6FB2F300FE0FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -170,6 +174,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2CF718F21D1EFE89000D7421 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				2CF718E61D1EF1F1000D7421 /* BWWalkthroughPageViewController.swift */,
+				2CF718E71D1EF1F1000D7421 /* BWWalkthroughViewController.swift */,
+				2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
 		4AFC6BFD93274A1C5D598F15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,12 +195,12 @@
 		83930F521C6FB2F300FE0FBC = {
 			isa = PBXGroup;
 			children = (
-				2C8A3B401D1ED85500E484D9 /* Alamofire.xcodeproj */,
 				83930F5D1C6FB2F300FE0FBC /* TouchLogin */,
 				83930F721C6FB2F400FE0FBC /* TouchLoginTests */,
 				83930F7D1C6FB2F400FE0FBC /* TouchLoginUITests */,
 				83930F5C1C6FB2F300FE0FBC /* Products */,
 				4AFC6BFD93274A1C5D598F15 /* Frameworks */,
+				2CF718F21D1EFE89000D7421 /* Libs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				83930F5E1C6FB2F300FE0FBC /* AppDelegate.swift */,
-				83930F601C6FB2F300FE0FBC /* ViewController.swift */,
 				83930F621C6FB2F300FE0FBC /* Main.storyboard */,
 				83930F651C6FB2F300FE0FBC /* Assets.xcassets */,
 				83930F671C6FB2F300FE0FBC /* LaunchScreen.storyboard */,
@@ -212,6 +225,7 @@
 				839016C51C6FBDAE0063A5D1 /* TouchViewController.swift */,
 				839016C91C6FC0AB0063A5D1 /* TouchIDManager.swift */,
 				839016CE1C6FFB2B0063A5D1 /* TouchLogin-Bridging-Header.h */,
+				2CF718F31D1EFED1000D7421 /* TutorialViewController.swift */,
 			);
 			path = TouchLogin;
 			sourceTree = "<group>";
@@ -426,10 +440,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83930F611C6FB2F300FE0FBC /* ViewController.swift in Sources */,
 				83930F5F1C6FB2F300FE0FBC /* AppDelegate.swift in Sources */,
+				2CF718E91D1EF1F1000D7421 /* BWWalkthroughViewController.swift in Sources */,
 				839016CA1C6FC0AB0063A5D1 /* TouchIDManager.swift in Sources */,
 				839016C61C6FBDAE0063A5D1 /* TouchViewController.swift in Sources */,
+				2CF718F41D1EFED1000D7421 /* TutorialViewController.swift in Sources */,
+				2CF718E81D1EF1F1000D7421 /* BWWalkthroughPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

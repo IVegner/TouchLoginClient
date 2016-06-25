@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TouchLogin/TouchViewController.swift"
+            timestampString = "488570315.304856"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "TouchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TouchLogin.TouchViewController.__deallocating_deinit"
+                  moduleName = "TouchLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Documents/Programming/Touch%20Login/TouchLoginClient/TouchLogin/TouchViewController.swift"
+                  timestampString = "488570315.446745"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TouchLogin.TouchViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TouchLogin.TouchViewController"
+                  moduleName = "TouchLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Documents/Programming/Touch%20Login/TouchLoginClient/TouchLogin/TouchViewController.swift"
+                  timestampString = "488570315.447973"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TouchLogin.TouchViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TouchLogin.TouchViewController&gt;"
+                  moduleName = "TouchLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ivan/Documents/Programming/Touch%20Login/TouchLoginClient/TouchLogin/TouchViewController.swift"
+                  timestampString = "488570315.448113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Libs/TB_Walkthrough/TB_Walkthrough/Libs/BWWalkthroughViewController.swift"
+            timestampString = "488571488.074355"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

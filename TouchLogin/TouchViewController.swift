@@ -2,7 +2,7 @@
 //  TouchViewController.swift
 //  TouchLogin
 //
-//  Created by Christopher Yung on 2/13/16.
+//  Created by Ivan Vegner on 2/13/16.
 //  Copyright © 2016 TouchLogin. All rights reserved.
 //
 
@@ -12,11 +12,6 @@ import Alamofire
 
 class TouchViewController: UIViewController {
   
-  @IBOutlet weak var statusLabel: UILabel!
-  @IBOutlet weak var nameForm: UITextField!
-  @IBOutlet weak var emailForm: UITextField!
-  @IBOutlet weak var authorizeButton: UIButton!
-  @IBOutlet weak var updateButton: UIButton!
   var UID : String = UIDevice.currentDevice().identifierForVendor!.UUIDString
   var authorized : Bool = false
 	var identifier: Int = 0
@@ -24,14 +19,6 @@ class TouchViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    self.statusLabel.text = "Unauthorized"
-//    loadInfo()
-    authorizeButton.backgroundColor = UIColor.grayColor()
-    authorizeButton.layer.cornerRadius = 5
-    authorizeButton.layer.borderWidth = 1
-    authorizeButton.layer.borderColor = UIColor.blackColor().CGColor
-    authorizeButton.titleEdgeInsets=UIEdgeInsetsMake(0, 5, 0, 5);
-    authorizeButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
     print("UID=\(UID)")
   }
   
