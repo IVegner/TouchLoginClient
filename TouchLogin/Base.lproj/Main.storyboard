@@ -64,10 +64,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sLz-0A-z0a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="tutorialBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sLz-0A-z0a">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Welcome to TouchLogin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rO8-wX-gD6">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Welcome to TouchLogin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rO8-wX-gD6">
                                 <rect key="frame" x="95" y="58" width="411" height="205"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -78,10 +79,17 @@
                         <color key="backgroundColor" red="0.82039159536361694" green="0.92540818452835083" blue="0.9550061821937561" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rO8-wX-gD6" firstAttribute="top" secondItem="nii-r1-HUl" secondAttribute="bottom" constant="38" id="8yQ-3f-Sm3"/>
-                            <constraint firstItem="rO8-wX-gD6" firstAttribute="centerX" secondItem="gdo-81-hgl" secondAttribute="centerX" id="OEl-PA-yqn"/>
-                            <constraint firstItem="sLz-0A-z0a" firstAttribute="centerX" secondItem="gdo-81-hgl" secondAttribute="centerX" id="ld7-eF-ruL"/>
-                            <constraint firstItem="sLz-0A-z0a" firstAttribute="centerY" secondItem="gdo-81-hgl" secondAttribute="centerY" id="p2w-uD-HzB"/>
+                            <constraint firstItem="sLz-0A-z0a" firstAttribute="leading" secondItem="gdo-81-hgl" secondAttribute="leading" id="GIb-sF-VCx"/>
+                            <constraint firstAttribute="trailing" secondItem="sLz-0A-z0a" secondAttribute="trailing" id="GV6-e8-ErK"/>
+                            <constraint firstItem="Z8r-bU-z3I" firstAttribute="top" secondItem="sLz-0A-z0a" secondAttribute="bottom" id="QvJ-F8-dm8"/>
+                            <constraint firstItem="sLz-0A-z0a" firstAttribute="top" secondItem="gdo-81-hgl" secondAttribute="top" id="Z9Z-9O-1ND"/>
+                            <constraint firstItem="Z8r-bU-z3I" firstAttribute="top" secondItem="sLz-0A-z0a" secondAttribute="bottom" id="tMI-aT-2mS"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="tMI-aT-2mS"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0TE-0y-bww" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -100,7 +108,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lcb-tf-StO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorialBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lcb-tf-StO">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is TouchLogin?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwM-Id-8Oy">
@@ -110,7 +118,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ogs-CK-gOX">
-                                <rect key="frame" x="119" y="342" width="362" height="223.5"/>
+                                <rect key="frame" x="119" y="342" width="362" height="224"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
@@ -130,10 +138,12 @@
                         <constraints>
                             <constraint firstItem="CwM-Id-8Oy" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="7ZR-tF-tf5"/>
                             <constraint firstItem="CwM-Id-8Oy" firstAttribute="top" secondItem="BEx-Dm-uCC" secondAttribute="bottom" constant="64" id="Bnj-iL-iDN"/>
-                            <constraint firstItem="lcb-tf-StO" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="KOM-y6-AWC"/>
                             <constraint firstItem="wT0-N6-NSd" firstAttribute="top" secondItem="Ogs-CK-gOX" secondAttribute="bottom" constant="54" id="PdQ-zo-A9D"/>
+                            <constraint firstItem="lcb-tf-StO" firstAttribute="top" secondItem="XXo-GG-Hwe" secondAttribute="top" id="ROW-my-hU8"/>
                             <constraint firstItem="CwM-Id-8Oy" firstAttribute="top" secondItem="BEx-Dm-uCC" secondAttribute="bottom" constant="64" id="fjw-p4-13l"/>
-                            <constraint firstItem="lcb-tf-StO" firstAttribute="centerY" secondItem="XXo-GG-Hwe" secondAttribute="centerY" id="kho-Jl-cKb"/>
+                            <constraint firstItem="wT0-N6-NSd" firstAttribute="top" secondItem="lcb-tf-StO" secondAttribute="bottom" id="if8-xP-glr"/>
+                            <constraint firstItem="lcb-tf-StO" firstAttribute="leading" secondItem="XXo-GG-Hwe" secondAttribute="leading" id="j2M-7q-67E"/>
+                            <constraint firstAttribute="trailing" secondItem="lcb-tf-StO" secondAttribute="trailing" id="jfS-kg-Bgd"/>
                             <constraint firstItem="Ogs-CK-gOX" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="uU8-JA-Kl9"/>
                             <constraint firstItem="CwM-Id-8Oy" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="vtt-4I-Qu4"/>
                         </constraints>
@@ -155,11 +165,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XTY-dD-8EV">
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tutorialBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XTY-dD-8EV">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTJ-ZB-ouO">
-                                <rect key="frame" x="119" y="340" width="362" height="223.5"/>
+                                <rect key="frame" x="119" y="340" width="362" height="224"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
@@ -184,7 +194,7 @@
                                 <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="easy-icon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1V-g8-iKq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tutorial-easy-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1V-g8-iKq">
                                 <rect key="frame" x="212" y="164" width="181" height="168"/>
                             </imageView>
                         </subviews>
@@ -218,7 +228,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Yzx-nX-dVU">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tutorialBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Yzx-nX-dVU">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Personal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDU-4V-dRI">
@@ -228,7 +238,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZT-qR-lsY">
-                                <rect key="frame" x="119" y="332" width="362" height="223.5"/>
+                                <rect key="frame" x="119" y="332" width="362" height="224"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
@@ -248,7 +258,7 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fingerprint-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qr9-e7-fda">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tutorial-fingerprint-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qr9-e7-fda">
                                 <rect key="frame" x="212" y="164" width="181" height="168"/>
                             </imageView>
                         </subviews>
@@ -282,7 +292,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qIB-cB-CtS">
+                            <imageView userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tutorialBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qIB-cB-CtS">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Secure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7x-Ri-xud">
@@ -291,11 +301,11 @@
                                 <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lock-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rhg-6U-bJm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tutorial-lock-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rhg-6U-bJm">
                                 <rect key="frame" x="180" y="154" width="240" height="128"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dTS-6J-4R1">
-                                <rect key="frame" x="119" y="321" width="362" height="223.5"/>
+                                <rect key="frame" x="119" y="321" width="362" height="224"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
@@ -346,7 +356,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JbE-oY-FQC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="tutorialBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JbE-oY-FQC">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKN-iy-Nv7">
@@ -370,9 +380,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="132.jpg" width="2900" height="2000"/>
-        <image name="easy-icon1.png" width="204" height="204"/>
-        <image name="fingerprint-icon.png" width="515" height="649"/>
-        <image name="lock-icon.png" width="397" height="510"/>
+        <image name="tutorial-easy-icon.png" width="204" height="204"/>
+        <image name="tutorial-fingerprint-icon.png" width="515" height="649"/>
+        <image name="tutorial-lock-icon.png" width="397" height="510"/>
+        <image name="tutorialBackground.jpg" width="2900" height="2000"/>
     </resources>
 </document>
