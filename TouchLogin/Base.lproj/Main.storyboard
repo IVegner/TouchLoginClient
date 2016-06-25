@@ -35,18 +35,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNM-f7-AQc">
-                                <rect key="frame" x="284" y="289" width="33" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="UlO-63-rVn">
+                                <rect key="frame" x="281" y="543" width="39" height="37"/>
+                            </pageControl>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="NNM-f7-AQc" firstAttribute="centerX" secondItem="AkQ-kg-xb4" secondAttribute="centerX" id="TB9-Th-tM6"/>
-                            <constraint firstItem="NNM-f7-AQc" firstAttribute="centerY" secondItem="AkQ-kg-xb4" secondAttribute="centerY" id="dtI-ah-kkB"/>
+                            <constraint firstItem="UlO-63-rVn" firstAttribute="centerX" secondItem="AkQ-kg-xb4" secondAttribute="centerX" id="0uZ-Ny-QqD"/>
+                            <constraint firstItem="IXN-dp-r3C" firstAttribute="top" secondItem="UlO-63-rVn" secondAttribute="bottom" constant="20" id="DpN-Do-ydE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="UlO-63-rVn" id="FiX-Aq-0Ps"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lLw-gu-jnm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,7 +63,25 @@
                     <view key="view" contentMode="scaleToFill" id="gdo-81-hgl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.096547573683359866" blue="0.10637464129126595" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sLz-0A-z0a">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Welcome to TouchLogin" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rO8-wX-gD6">
+                                <rect key="frame" x="95" y="58" width="411" height="205"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="66"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.82039159536361694" green="0.92540818452835083" blue="0.9550061821937561" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rO8-wX-gD6" firstAttribute="top" secondItem="nii-r1-HUl" secondAttribute="bottom" constant="38" id="8yQ-3f-Sm3"/>
+                            <constraint firstItem="rO8-wX-gD6" firstAttribute="centerX" secondItem="gdo-81-hgl" secondAttribute="centerX" id="OEl-PA-yqn"/>
+                            <constraint firstItem="sLz-0A-z0a" firstAttribute="centerX" secondItem="gdo-81-hgl" secondAttribute="centerX" id="ld7-eF-ruL"/>
+                            <constraint firstItem="sLz-0A-z0a" firstAttribute="centerY" secondItem="gdo-81-hgl" secondAttribute="centerY" id="p2w-uD-HzB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0TE-0y-bww" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -81,7 +99,44 @@
                     <view key="view" contentMode="scaleToFill" id="XXo-GG-Hwe">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.34824400611874029" green="0.55697184929530641" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lcb-tf-StO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is TouchLogin?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwM-Id-8Oy">
+                                <rect key="frame" x="112" y="84" width="387" height="77"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
+                                <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ogs-CK-gOX">
+                                <rect key="frame" x="119" y="342" width="362" height="223.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">TouchLogin is a revolutionary biometric authentication mechanism which uses the TouchID sensor, allowing you to securely register and log into your accounts without the hassle and vulnerability of traditional text-based passwords.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="7ZR-tF-tf5"/>
+                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="top" secondItem="BEx-Dm-uCC" secondAttribute="bottom" constant="64" id="Bnj-iL-iDN"/>
+                            <constraint firstItem="lcb-tf-StO" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="KOM-y6-AWC"/>
+                            <constraint firstItem="wT0-N6-NSd" firstAttribute="top" secondItem="Ogs-CK-gOX" secondAttribute="bottom" constant="54" id="PdQ-zo-A9D"/>
+                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="top" secondItem="BEx-Dm-uCC" secondAttribute="bottom" constant="64" id="fjw-p4-13l"/>
+                            <constraint firstItem="lcb-tf-StO" firstAttribute="centerY" secondItem="XXo-GG-Hwe" secondAttribute="centerY" id="kho-Jl-cKb"/>
+                            <constraint firstItem="Ogs-CK-gOX" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="uU8-JA-Kl9"/>
+                            <constraint firstItem="CwM-Id-8Oy" firstAttribute="centerX" secondItem="XXo-GG-Hwe" secondAttribute="centerX" id="vtt-4I-Qu4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIr-u7-j6Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -99,12 +154,225 @@
                     <view key="view" contentMode="scaleToFill" id="5Qz-i0-xoj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XTY-dD-8EV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTJ-ZB-ouO">
+                                <rect key="frame" x="119" y="340" width="362" height="223.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Logging into a bank? Just press your finger. Buying something online? Press your finger. Paying your bills? Press your finger. No more passwords to remember, no more verification codes to enter. Simply touch, and be on your way.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99195677042007446" green="0.99622899293899536" blue="0.99192315340042114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="Optima-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Convenient" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zv4-cH-TYM">
+                                <rect key="frame" x="107" y="79" width="387" height="77"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
+                                <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="easy-icon1.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1V-g8-iKq">
+                                <rect key="frame" x="212" y="164" width="181" height="168"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.25447135677695298" green="1" blue="0.35730661620852266" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zv4-cH-TYM" firstAttribute="centerX" secondItem="5Qz-i0-xoj" secondAttribute="centerX" id="48H-xu-LYe"/>
+                            <constraint firstItem="g1V-g8-iKq" firstAttribute="top" secondItem="Nmw-fx-QXW" secondAttribute="bottom" constant="144" id="GU2-8V-aQX"/>
+                            <constraint firstItem="g1V-g8-iKq" firstAttribute="centerX" secondItem="5Qz-i0-xoj" secondAttribute="centerX" id="J1O-JA-Ate"/>
+                            <constraint firstItem="dRx-zd-QSj" firstAttribute="top" secondItem="tTJ-ZB-ouO" secondAttribute="bottom" constant="36.5" id="Kxm-ua-5jd"/>
+                            <constraint firstItem="XTY-dD-8EV" firstAttribute="centerX" secondItem="5Qz-i0-xoj" secondAttribute="centerX" id="N3X-Oh-8Ux"/>
+                            <constraint firstItem="tTJ-ZB-ouO" firstAttribute="centerX" secondItem="5Qz-i0-xoj" secondAttribute="centerX" id="O6e-Cw-euC"/>
+                            <constraint firstItem="XTY-dD-8EV" firstAttribute="centerY" secondItem="5Qz-i0-xoj" secondAttribute="centerY" id="i7J-Sg-OjC"/>
+                            <constraint firstItem="Zv4-cH-TYM" firstAttribute="top" secondItem="Nmw-fx-QXW" secondAttribute="bottom" constant="59" id="ksc-Dp-Yxe"/>
+                            <constraint firstItem="dRx-zd-QSj" firstAttribute="top" secondItem="g1V-g8-iKq" secondAttribute="bottom" constant="280" id="ml5-iZ-uGh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xau-PX-1x1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1793" y="128"/>
         </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="hN1-V0-9au">
+            <objects>
+                <viewController storyboardIdentifier="tutorialPage4" id="ChB-0D-VSa" customClass="BWWalkthroughPageViewController" customModule="TouchLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UeZ-9v-8Iw"/>
+                        <viewControllerLayoutGuide type="bottom" id="67T-be-Nmk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VTC-0Z-nfA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Yzx-nX-dVU">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Personal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDU-4V-dRI">
+                                <rect key="frame" x="107" y="79" width="387" height="77"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
+                                <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZT-qR-lsY">
+                                <rect key="frame" x="119" y="332" width="362" height="223.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Passwords can be stolen, verification codes can be intercepted, but a fingerprint is uniquely yours. TouchLogin provides an authentication mechanism that is tailored to you, and to you only. It's like your own personal, permanent password.</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="Optima-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fingerprint-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qr9-e7-fda">
+                                <rect key="frame" x="212" y="164" width="181" height="168"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qr9-e7-fda" firstAttribute="top" secondItem="UeZ-9v-8Iw" secondAttribute="bottom" constant="144" id="IRN-uO-KZE"/>
+                            <constraint firstItem="Yzx-nX-dVU" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="LKL-fl-lx2"/>
+                            <constraint firstItem="Yzx-nX-dVU" firstAttribute="centerY" secondItem="VTC-0Z-nfA" secondAttribute="centerY" id="WKN-y9-jhK"/>
+                            <constraint firstItem="67T-be-Nmk" firstAttribute="top" secondItem="Qr9-e7-fda" secondAttribute="bottom" constant="280" id="WNa-i7-BtV"/>
+                            <constraint firstItem="TZT-qR-lsY" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="aen-NZ-7j5"/>
+                            <constraint firstItem="Qr9-e7-fda" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="awN-kr-cGC"/>
+                            <constraint firstItem="HDU-4V-dRI" firstAttribute="top" secondItem="UeZ-9v-8Iw" secondAttribute="bottom" constant="59" id="kBR-U8-Uy0"/>
+                            <constraint firstItem="67T-be-Nmk" firstAttribute="top" secondItem="TZT-qR-lsY" secondAttribute="bottom" constant="44.5" id="qKt-TB-BhO"/>
+                            <constraint firstItem="HDU-4V-dRI" firstAttribute="centerX" secondItem="VTC-0Z-nfA" secondAttribute="centerX" id="ulv-rP-QRw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iqz-kP-PqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2412" y="128"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="lRu-aI-xA7">
+            <objects>
+                <viewController storyboardIdentifier="tutorialPage5" id="PrO-39-V0h" customClass="BWWalkthroughPageViewController" customModule="TouchLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tid-K3-gEk"/>
+                        <viewControllerLayoutGuide type="bottom" id="uZ6-d8-QWW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E9G-CT-8JF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qIB-cB-CtS">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Secure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7x-Ri-xud">
+                                <rect key="frame" x="107" y="69" width="387" height="77"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
+                                <color key="textColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lock-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rhg-6U-bJm">
+                                <rect key="frame" x="180" y="154" width="240" height="128"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dTS-6J-4R1">
+                                <rect key="frame" x="119" y="321" width="362" height="223.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">We take the security of your identity very seriously. Every bit of information you give us is hashed and encrypted, so that not even we can read it, thwarting even the most determined hackers. That's more than most other services can say. </string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="20" name="Optima-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uZ6-d8-QWW" firstAttribute="top" secondItem="Rhg-6U-bJm" secondAttribute="bottom" constant="318" id="5Z0-z7-8cg"/>
+                            <constraint firstItem="p7x-Ri-xud" firstAttribute="centerX" secondItem="E9G-CT-8JF" secondAttribute="centerX" id="9kS-ur-rKi"/>
+                            <constraint firstItem="dTS-6J-4R1" firstAttribute="centerX" secondItem="E9G-CT-8JF" secondAttribute="centerX" id="Bxm-pW-ut7"/>
+                            <constraint firstItem="Rhg-6U-bJm" firstAttribute="top" secondItem="tid-K3-gEk" secondAttribute="bottom" constant="134" id="GWu-Wq-uhp"/>
+                            <constraint firstItem="qIB-cB-CtS" firstAttribute="centerX" secondItem="E9G-CT-8JF" secondAttribute="centerX" id="JW0-8a-751"/>
+                            <constraint firstItem="p7x-Ri-xud" firstAttribute="top" secondItem="tid-K3-gEk" secondAttribute="bottom" constant="49" id="a0Z-7V-00i"/>
+                            <constraint firstItem="qIB-cB-CtS" firstAttribute="centerY" secondItem="E9G-CT-8JF" secondAttribute="centerY" id="c6G-Ll-TQP"/>
+                            <constraint firstItem="uZ6-d8-QWW" firstAttribute="top" secondItem="dTS-6J-4R1" secondAttribute="bottom" constant="55.5" id="kkJ-OJ-L7n"/>
+                            <constraint firstItem="Rhg-6U-bJm" firstAttribute="centerX" secondItem="E9G-CT-8JF" secondAttribute="centerX" id="oOh-5e-iiZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4v-yy-Iaw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3036" y="128"/>
+        </scene>
+        <!--Walkthrough Page View Controller-->
+        <scene sceneID="Iid-VD-ZmV">
+            <objects>
+                <viewController storyboardIdentifier="tutorialPage6" id="Tvq-af-GW3" customClass="BWWalkthroughPageViewController" customModule="TouchLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mwu-HA-y8M"/>
+                        <viewControllerLayoutGuide type="bottom" id="jka-Zg-lZy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bUO-Pg-QWF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JbE-oY-FQC">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKN-iy-Nv7">
+                                <rect key="frame" x="156" y="243" width="288" height="114"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
+                                <state key="normal" title="Let's get started"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DKN-iy-Nv7" firstAttribute="centerY" secondItem="bUO-Pg-QWF" secondAttribute="centerY" id="RlY-bg-d2F"/>
+                            <constraint firstItem="JbE-oY-FQC" firstAttribute="centerX" secondItem="bUO-Pg-QWF" secondAttribute="centerX" id="Z9s-QX-1ER"/>
+                            <constraint firstItem="DKN-iy-Nv7" firstAttribute="centerX" secondItem="bUO-Pg-QWF" secondAttribute="centerX" id="msg-TV-8WZ"/>
+                            <constraint firstItem="JbE-oY-FQC" firstAttribute="centerY" secondItem="bUO-Pg-QWF" secondAttribute="centerY" id="uSL-Hz-bI8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BYh-8s-mtt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3656" y="128"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="132.jpg" width="2900" height="2000"/>
+        <image name="easy-icon1.png" width="204" height="204"/>
+        <image name="fingerprint-icon.png" width="515" height="649"/>
+        <image name="lock-icon.png" width="397" height="510"/>
+    </resources>
 </document>
