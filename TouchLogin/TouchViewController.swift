@@ -49,7 +49,7 @@ class TouchViewController: UIViewController {
 					let parameters = [
 						"UID": self.UID,
 						"identifier": String(identifier),
-						"username": "Vanya"
+						"username": "iVegner"
 					]
 					
 					print("Successfully sent data to server")
